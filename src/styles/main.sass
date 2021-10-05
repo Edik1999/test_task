@@ -1,0 +1,27 @@
+body, html
+    margin: 0
+    padding: 0
+    height: 100%
+    width: 100%
+body
+    display: flex
+    justify-content: center
+    align-items: center 
+.img
+    width: 40vw
+    background-image: url('../img/go.webp')
+    background-size: cover
+    animation: img 6s steps(1, end) infinite
+.img:hover body
+    background: #000000
+
+@keyframes img
+    70%
+        background-image: url('../img/1.webp')
+    80%
+        background-image: url('../img/2.webp')
+    90%
+        background-image: url('../img/3.webp')
+    99%
+        background-image: url('../img/go.webp')
+        
